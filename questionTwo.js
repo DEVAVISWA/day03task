@@ -5,4 +5,5 @@ flag.onload= function(){
     const flags=JSON.parse(flag.response)
     for(let i = 0; i<flags.length ; i++)
     console.log("The FLAG is :" , flags[i].flag)
+
 }
